@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta name="description" content="WebSite" />
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="simcal11">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <title>Website2</title>
+</head>
+
+<body>
+
+    <!-- ********************** Navbar **********************  -->
+
+    <nav class="navbar">
+        <h1 class="logo">Adventure</h1>
+        <ul class="nav-links">
+            <li class="active"><a href="#"></a> Home </li>
+            <li><a href="#"></a> Tours</li>
+            <li><a href="#"></a> Explore</li>
+            <li class="ctn"><a href="#"></a> Contact</li>
+        </ul>
+
+        <i class="fa-solid fa-bars" id="menu-btn"></i>
+
+    </nav>
+
+
+    <!-- ********************** Header **********************  -->
+
+
+    <header>
+        <div class="header-content">
+            <h2>titolo1</h2>
+            <div class="line"></div>
+            <h1>titolo2</h1>
+
+            <a href="#" class="ctn">Learn More</a>
+
+        </div>
+
+    </header>
+
+    <!-- ********************** Events **********************  -->
+    <section class="events">
+        <div class="title">
+            <h1>Upcming events</h1>
+            <div class="line">
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <img src="./images/img1.JPG" alt="">
+                <h4>Everest Camp Trek</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur itaque atque eius cupiditate sequi
+                    nobis quisquam dolore molestias non, quam repellendus incidunt nihil cum explicabo nam facilis
+                    quidem sunt esse.</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+
+            <div class="col">
+                <img src="./images/img1.JPG" alt="">
+                <h4>Walking Holydays </h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus molestiae quas magni quo, quasi
+                    earum a distinctio commodi unde officiis, non autem dolorem blanditiis esse dolores quos aperiam
+                    consequatur nesciunt.</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ********************** Events **********************  -->
+    <section class="explore">
+        <div class="explore-content">
+            
+            <h1>Explore the world</h1>
+            <div class="line"></div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, odit? Nisi recusandae reiciendis sed quas
+                deserunt, dolorem quod dicta voluptatum ipsa saepe ab dolorum quam porro consequuntur. Dignissimos,
+                doloremque. Vitae.</p>
+            <a href="" class="ctn">Learn More</a>
+        </div>
+
+    </section>
+
+    <section class="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1>
+                    Upcoming Tours & Destinations
+                </h1>
+                <div class="line"></div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta accusantium consequuntur nam vitae, quos animi quae, ratione voluptas maxime amet corrupti perferendis atque. Nam dolore neque obcaecati ullam porro aspernatur!</p>
+                <a href="" class="ctn">Learn More</a>
+            </div>
+
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <img src="./images/img1.JPG" alt="">
+                    <img src="./images/img1.JPG" alt="">
+                    <img src="./images/img1.JPG" alt="">
+                    <img src="./images/img1.JPG" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </section>
+
+    <script>
+
+        const menuBtn = document.querySelector('#menu-btn');
+        const navlinks = document.querySelector('.nav-links');
+        menuBtn.addEventListener("click", function () {
+            navlinks.classList.toggle("mobile-menu");
+        });
+
+
+    </script>
+
+</body>
+
+</html>
