@@ -1,0 +1,4 @@
+Hello World!
+
+Questo è un file di prova creato tramite GitHub MCP.
+Data: 2026-09-18
